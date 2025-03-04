@@ -1,5 +1,7 @@
 # Mac
 .DS_STORE
+.nova/
+.nova/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
