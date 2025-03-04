@@ -22,115 +22,115 @@ eY - echo number, sequential
 
 ```
 ├── README.md
-├── Session_X
-│   ├── 1-Baseline
-│   │   ├── anat
-│   │   │   ├── SAG_BRAVO_T1_FULL_s23_e1.json
-│   │   │   └── SAG_BRAVO_T1_FULL_s23_e1.nii.gz
-│   │   ├── blip
-│   │   │   ├── MEPI_rev_blip_s25_e1.json
-│   │   │   ├── MEPI_rev_blip_s25_e1.nii.gz
-│   │   │   ├── MEPI_rev_blip_s25_e2.json
-│   │   │   ├── MEPI_rev_blip_s25_e2.nii.gz
-│   │   │   ├── MEPI_rev_blip_s25_e3.json
-│   │   │   └── MEPI_rev_blip_s25_e3.nii.gz
-│   │   └── func
-│   │       ├── MEPI_multiphase_s27_e1.json
-│   │       ├── MEPI_multiphase_s27_e1.nii.gz
-│   │       ├── MEPI_multiphase_s27_e2.json
-│   │       ├── MEPI_multiphase_s27_e2.nii.gz
-│   │       ├── MEPI_multiphase_s27_e3.json
-│   │       └── MEPI_multiphase_s27_e3.nii.gz
-│   ├── 2-Mid-SleepRestriction
-│   │   ├── anat
-│   │   │   ├── SAG_BRAVO_T1_FULL_s23_e1.json
-│   │   │   └── SAG_BRAVO_T1_FULL_s23_e1.nii.gz
-│   │   ├── blip
-│   │   │   ├── MEPI_rev_blip_s25_e1.json
-│   │   │   ├── MEPI_rev_blip_s25_e1.nii.gz
-│   │   │   ├── MEPI_rev_blip_s25_e2.json
-│   │   │   ├── MEPI_rev_blip_s25_e2.nii.gz
-│   │   │   ├── MEPI_rev_blip_s25_e3.json
-│   │   │   └── MEPI_rev_blip_s25_e3.nii.gz
-│   │   └── func
-│   │       ├── MEPI_multiphase_s26_e1.json
-│   │       ├── MEPI_multiphase_s26_e1.nii.gz
-│   │       ├── MEPI_multiphase_s26_e2.json
-│   │       ├── MEPI_multiphase_s26_e2.nii.gz
-│   │       ├── MEPI_multiphase_s26_e3.json
-│   │       ├── MEPI_multiphase_s26_e3.nii.gz
-│   │       ├── MEPI_multiphase_s27_e1.json
-│   │       ├── MEPI_multiphase_s27_e1.nii.gz
-│   │       ├── MEPI_multiphase_s27_e2.json
-│   │       ├── MEPI_multiphase_s27_e2.nii.gz
-│   │       ├── MEPI_multiphase_s27_e3.json
-│   │       └── MEPI_multiphase_s27_e3.nii.gz
-│   ├── 3-EndSleepRestriction
-│   │   ├── anat
-│   │   │   ├── SAG_BRAVO_T1_FULL_s23_e1.json
-│   │   │   └── SAG_BRAVO_T1_FULL_s23_e1.nii.gz
-│   │   ├── blip
-│   │   │   ├── MEPI_rev_blip_s25_e1.json
-│   │   │   ├── MEPI_rev_blip_s25_e1.nii.gz
-│   │   │   ├── MEPI_rev_blip_s25_e2.json
-│   │   │   ├── MEPI_rev_blip_s25_e2.nii.gz
-│   │   │   ├── MEPI_rev_blip_s25_e3.json
-│   │   │   └── MEPI_rev_blip_s25_e3.nii.gz
-│   │   └── func
-│   │       ├── MEPI_multiphase_s26_e1.json
-│   │       ├── MEPI_multiphase_s26_e1.nii.gz
-│   │       ├── MEPI_multiphase_s26_e2.json
-│   │       ├── MEPI_multiphase_s26_e2.nii.gz
-│   │       ├── MEPI_multiphase_s26_e3.json
-│   │       ├── MEPI_multiphase_s26_e3.nii.gz
-│   │       ├── MEPI_multiphase_s27_e1.json
-│   │       ├── MEPI_multiphase_s27_e1.nii.gz
-│   │       ├── MEPI_multiphase_s27_e2.json
-│   │       ├── MEPI_multiphase_s27_e2.nii.gz
-│   │       ├── MEPI_multiphase_s27_e3.json
-│   │       └── MEPI_multiphase_s27_e3.nii.gz
-│   ├── 4-AcuteRecovery
-│   │   ├── anat
-│   │   │   ├── SAG_BRAVO_T1_FULL_s24_e1.json
-│   │   │   └── SAG_BRAVO_T1_FULL_s24_e1.nii.gz
-│   │   ├── blip
-│   │   │   ├── MEPI_rev_blip_s26_e1.json
-│   │   │   ├── MEPI_rev_blip_s26_e1.nii.gz
-│   │   │   ├── MEPI_rev_blip_s26_e2.json
-│   │   │   ├── MEPI_rev_blip_s26_e2.nii.gz
-│   │   │   ├── MEPI_rev_blip_s26_e3.json
-│   │   │   └── MEPI_rev_blip_s26_e3.nii.gz
-│   │   └── func
-│   │       ├── MEPI_multiphase_s27_e1.json
-│   │       ├── MEPI_multiphase_s27_e1.nii.gz
-│   │       ├── MEPI_multiphase_s27_e2.json
-│   │       ├── MEPI_multiphase_s27_e2.nii.gz
-│   │       ├── MEPI_multiphase_s27_e3.json
-│   │       ├── MEPI_multiphase_s27_e3.nii.gz
-│   │       ├── MEPI_multiphase_s28_e1.json
-│   │       ├── MEPI_multiphase_s28_e1.nii.gz
-│   │       ├── MEPI_multiphase_s28_e2.json
-│   │       ├── MEPI_multiphase_s28_e2.nii.gz
-│   │       ├── MEPI_multiphase_s28_e3.json
-│   │       └── MEPI_multiphase_s28_e3.nii.gz
-│   └── 5-Long-termRecovery
-│       ├── anat
-│       │   ├── SAG_BRAVO_T1_FULL_s22_e1.json
-│       │   └── SAG_BRAVO_T1_FULL_s22_e1.nii.gz
-│       ├── blip
-│       │   ├── MEPI_rev_blip_s24_e1.json
-│       │   ├── MEPI_rev_blip_s24_e1.nii.gz
-│       │   ├── MEPI_rev_blip_s24_e2.json
-│       │   ├── MEPI_rev_blip_s24_e2.nii.gz
-│       │   ├── MEPI_rev_blip_s24_e3.json
-│       │   └── MEPI_rev_blip_s24_e3.nii.gz
-│       └── func
-│           ├── MEPI_multiphase_s25_e1.json
-│           ├── MEPI_multiphase_s25_e1.nii.gz
-│           ├── MEPI_multiphase_s25_e2.json
-│           ├── MEPI_multiphase_s25_e2.nii.gz
-│           ├── MEPI_multiphase_s25_e3.json
-│           └── MEPI_multiphase_s25_e3.nii.gz
+├── sub-3
+├── ses-AcuteRecovery
+│   ├── anat
+│   │   ├── sub-3_ses-AcuteRecovery_T1w.json
+│   │   └── sub-3_ses-AcuteRecovery_T1w.nii.gz
+│   ├── fmap
+│   │   ├── sub-3_ses-AcuteRecovery_echo-1_blip.json
+│   │   ├── sub-3_ses-AcuteRecovery_echo-1_blip.nii.gz
+│   │   ├── sub-3_ses-AcuteRecovery_echo-2_blip.json
+│   │   ├── sub-3_ses-AcuteRecovery_echo-2_blip.nii.gz
+│   │   ├── sub-3_ses-AcuteRecovery_echo-3_blip.json
+│   │   └── sub-3_ses-AcuteRecovery_echo-3_blip.nii.gz
+│   └── func
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-01_echo-1_bold.json
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-01_echo-1_bold.nii.gz
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-01_echo-2_bold.json
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-01_echo-2_bold.nii.gz
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-01_echo-3_bold.json
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-01_echo-3_bold.nii.gz
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-02_echo-1_bold.json
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-02_echo-1_bold.nii.gz
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-02_echo-2_bold.json
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-02_echo-2_bold.nii.gz
+│       ├── sub-3_ses-AcuteRecovery_task-rest_run-02_echo-3_bold.json
+│       └── sub-3_ses-AcuteRecovery_task-rest_run-02_echo-3_bold.nii.gz
+├── ses-Baseline
+│   ├── anat
+│   │   ├── sub-3_ses-Baseline_T1w.json
+│   │   └── sub-3_ses-Baseline_T1w.nii.gz
+│   ├── fmap
+│   │   ├── sub-3_ses-Baseline_echo-1_blip.json
+│   │   ├── sub-3_ses-Baseline_echo-1_blip.nii.gz
+│   │   ├── sub-3_ses-Baseline_echo-2_blip.json
+│   │   ├── sub-3_ses-Baseline_echo-2_blip.nii.gz
+│   │   ├── sub-3_ses-Baseline_echo-3_blip.json
+│   │   └── sub-3_ses-Baseline_echo-3_blip.nii.gz
+│   └── func
+│       ├── sub-3_ses-Baseline_task-rest_echo-1_bold.json
+│       ├── sub-3_ses-Baseline_task-rest_echo-1_bold.nii.gz
+│       ├── sub-3_ses-Baseline_task-rest_echo-2_bold.json
+│       ├── sub-3_ses-Baseline_task-rest_echo-2_bold.nii.gz
+│       ├── sub-3_ses-Baseline_task-rest_echo-3_bold.json
+│       └── sub-3_ses-Baseline_task-rest_echo-3_bold.nii.gz
+├── ses-EndSleepRestriction
+│   ├── anat
+│   │   ├── sub-3_ses-EndSleepRestriction_T1w.json
+│   │   └── sub-3_ses-EndSleepRestriction_T1w.nii.gz
+│   ├── fmap
+│   │   ├── sub-3_ses-EndSleepRestriction_echo-1_blip.json
+│   │   ├── sub-3_ses-EndSleepRestriction_echo-1_blip.nii.gz
+│   │   ├── sub-3_ses-EndSleepRestriction_echo-2_blip.json
+│   │   ├── sub-3_ses-EndSleepRestriction_echo-2_blip.nii.gz
+│   │   ├── sub-3_ses-EndSleepRestriction_echo-3_blip.json
+│   │   └── sub-3_ses-EndSleepRestriction_echo-3_blip.nii.gz
+│   └── func
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-01_echo-1_bold.json
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-01_echo-1_bold.nii.gz
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-01_echo-2_bold.json
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-01_echo-2_bold.nii.gz
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-01_echo-3_bold.json
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-01_echo-3_bold.nii.gz
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-02_echo-1_bold.json
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-02_echo-1_bold.nii.gz
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-02_echo-2_bold.json
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-02_echo-2_bold.nii.gz
+│       ├── sub-3_ses-EndSleepRestriction_task-rest_run-02_echo-3_bold.json
+│       └── sub-3_ses-EndSleepRestriction_task-rest_run-02_echo-3_bold.nii.gz
+├── ses-LongtermRecovery
+│   ├── anat
+│   │   ├── sub-3_ses-LongtermRecovery_T1w.json
+│   │   └── sub-3_ses-LongtermRecovery_T1w.nii.gz
+│   ├── fmap
+│   │   ├── sub-3_ses-LongtermRecovery_echo-1_blip.json
+│   │   ├── sub-3_ses-LongtermRecovery_echo-1_blip.nii.gz
+│   │   ├── sub-3_ses-LongtermRecovery_echo-2_blip.json
+│   │   ├── sub-3_ses-LongtermRecovery_echo-2_blip.nii.gz
+│   │   ├── sub-3_ses-LongtermRecovery_echo-3_blip.json
+│   │   └── sub-3_ses-LongtermRecovery_echo-3_blip.nii.gz
+│   └── func
+│       ├── sub-3_ses-LongtermRecovery_task-rest_echo-1_bold.json
+│       ├── sub-3_ses-LongtermRecovery_task-rest_echo-1_bold.nii.gz
+│       ├── sub-3_ses-LongtermRecovery_task-rest_echo-2_bold.json
+│       ├── sub-3_ses-LongtermRecovery_task-rest_echo-2_bold.nii.gz
+│       ├── sub-3_ses-LongtermRecovery_task-rest_echo-3_bold.json
+│       └── sub-3_ses-LongtermRecovery_task-rest_echo-3_bold.nii.gz
+└── ses-MidSleepRestriction
+	├── anat
+	│   ├── sub-3_ses-MidSleepRestriction_T1w.json
+	│   └── sub-3_ses-MidSleepRestriction_T1w.nii.gz
+	├── fmap
+	│   ├── sub-3_ses-MidSleepRestriction_echo-1_blip.json
+	│   ├── sub-3_ses-MidSleepRestriction_echo-1_blip.nii.gz
+	│   ├── sub-3_ses-MidSleepRestriction_echo-2_blip.json
+	│   ├── sub-3_ses-MidSleepRestriction_echo-2_blip.nii.gz
+	│   ├── sub-3_ses-MidSleepRestriction_echo-3_blip.json
+	│   └── sub-3_ses-MidSleepRestriction_echo-3_blip.nii.gz
+	└── func
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-01_echo-1_bold.json
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-01_echo-1_bold.nii.gz
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-01_echo-2_bold.json
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-01_echo-2_bold.nii.gz
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-01_echo-3_bold.json
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-01_echo-3_bold.nii.gz
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-02_echo-1_bold.json
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-02_echo-1_bold.nii.gz
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-02_echo-2_bold.json
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-02_echo-2_bold.nii.gz
+		├── sub-3_ses-MidSleepRestriction_task-rest_run-02_echo-3_bold.json
+		└── sub-3_ses-MidSleepRestriction_task-rest_run-02_echo-3_bold.nii.gz
 (OPTIONAL)
 │   ├── EEG-MRI
 │       ├── Subject X - Baseline.eeg
