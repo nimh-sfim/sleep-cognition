@@ -1,15 +1,14 @@
 # Sleep-Cognition Study
-
+---
 Subproject Leaders: Pete Molfese & Peter Bandettini
 Main Question: How does sleep restriction impact anatomical and functional brains
 
 Each participant has multiple sessions throughout the study. 
 
 ---
-## Code (in progress)
-
+## Code
+`@sort_dirs.sh` - quick script for sorting files to directories
 `@1_anatSS.sh` - script for running AFNI's sswarper2
-
 `@2_freesurfer.sh` - script for running freesurfer recon-all
 
 
