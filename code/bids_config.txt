@@ -1,0 +1,84 @@
+{
+  "descriptions": [
+    {
+      "datatype": "anat",
+      "suffix": "T1w",
+      "criteria": {
+        "SeriesDescription": "*T1*"
+      },
+      "sidecar_changes": {
+        "ProtocolName": "T1"
+      }
+    },
+    {
+      "id": "task_rest",
+      "datatype": "func",
+      "suffix": "bold",
+      "echo": 1,
+      "custom_entities": ["task-rest","echo"],
+      "criteria": {
+        "SeriesDescription": "*multiphase*",
+        "EchoNumber": "1"
+      }
+    },
+    {
+      "id": "task_rest",
+      "datatype": "func",
+      "suffix": "bold",
+      "echo": 2,
+      "custom_entities": ["task-rest","echo"],
+      "criteria": {
+        "SeriesDescription": "*multiphase*",
+        "EchoNumber": "2"
+      }
+    },
+    {
+      "id": "task_rest",
+      "datatype": "func",
+      "suffix": "bold",
+      "echo": 3,
+      "custom_entities": ["task-rest","echo"],
+      "criteria": {
+        "SeriesDescription": "*multiphase*",
+        "EchoNumber": "3"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "blip",
+      "custom_entities": ["blip","echo"],
+      "criteria": {
+        "SeriesDescription": "*rev blip*",
+        "EchoNumber": "1"
+      },
+      "sidecar_changes": {
+        "IntendedFor": "task_rest"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "blip",
+      "custom_entities": ["blip","echo"],
+      "criteria": {
+        "SeriesDescription": "*rev blip*",
+        "EchoNumber": "2"
+      },
+      "sidecar_changes": {
+        "IntendedFor": "task_rest"
+      }
+    },
+    {
+      "datatype": "fmap",
+      "suffix": "blip",
+      "custom_entities": ["blip","echo"],
+      "criteria": {
+        "SeriesDescription": "*rev blip*",
+        "EchoNumber": "3"
+      },
+      "sidecar_changes": {
+        "IntendedFor": "task_rest"
+      }
+    }
+  ]
+}
+
