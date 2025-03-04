@@ -1,6 +1,8 @@
 # Sleep-Cognition Study
 ---
+
 Subproject Leaders: Pete Molfese & Peter Bandettini
+
 Main Question: How does sleep restriction impact anatomical and functional brains
 
 Each participant has multiple sessions throughout the study. 
