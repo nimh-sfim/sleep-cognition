@@ -10,8 +10,9 @@ Each participant has multiple sessions throughout the study.
 ---
 ## Code
 
-`run_freesurfer.sh` - script for running freesurfer recon-all
-
+`code/run_freesurfer.sh` - script for running freesurfer recon-all
+`swarm/swarm_freesurfer.txt` - swarm for initial freesurfer
+`swarm/swarm_longitude.txt` - swarm for longitudinal pipeline part 1
 
 ---
 ## File naming conventions
