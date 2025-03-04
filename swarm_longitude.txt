@@ -1,0 +1,9 @@
+recon-all -base sub-3 -tp sub-3_Baseline -tp sub-3_MidSleepRestriction -tp sub-3_EndSleepRestriction -tp sub-3_AcuteRecovery -tp sub-3_LongtermRecovery -all
+recon-all -base sub-4 -tp sub-4_Baseline -tp sub-4_MidSleepRestriction -tp sub-4_EndSleepRestriction -tp sub-4_AcuteRecovery -tp sub-4_LongtermRecovery -all
+recon-all -base sub-5 -tp sub-5_Baseline -tp sub-5_MidSleepRestriction -tp sub-5_EndSleepRestriction -tp sub-5_AcuteRecovery -tp sub-5_LongtermRecovery -all
+recon-all -base sub-6 -tp sub-6_Baseline -tp sub-6_MidSleepRestriction -tp sub-6_EndSleepRestriction -tp sub-6_AcuteRecovery -tp sub-6_LongtermRecovery -all
+recon-all -base sub-7 -tp sub-7_Baseline -tp sub-7_MidSleepRestriction -tp sub-7_EndSleepRestriction -tp sub-7_AcuteRecovery -tp sub-7_LongtermRecovery -all
+recon-all -base sub-10 -tp sub-10_Baseline -tp sub-10_MidSleepRestriction -tp sub-10_EndSleepRestriction -tp sub-10_AcuteRecovery -tp sub-10_LongtermRecovery -all
+recon-all -base sub-9 -tp sub-9_Baseline -tp sub-9_MidSleepRestriction -all
+recon-all -base sub-12 -tp sub-12_Baseline -tp sub-12_EndSleepRestriction -all
+recon-all -base sub-8 -tp sub-8_Baseline -all
