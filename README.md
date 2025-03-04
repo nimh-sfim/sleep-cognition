@@ -7,8 +7,7 @@ Each participant has multiple sessions throughout the study.
 
 ---
 ## Code
-`@sort_dirs.sh` - quick script for sorting files to directories
-`@1_anatSS.sh` - script for running AFNI's sswarper2
+
 `@2_freesurfer.sh` - script for running freesurfer recon-all
 
 
