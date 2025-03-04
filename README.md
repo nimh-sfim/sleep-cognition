@@ -10,6 +10,10 @@ Each participant has multiple sessions throughout the study.
 ---
 ## Code
 
+`code/convert_dicom.sh` - converts dicom files to NIFTI using dcm2bids (and dcm2niix obviously)
+
+`code/bids_config.txt` - bids config for dcm2bids
+
 `code/run_freesurfer.sh` - script for running freesurfer recon-all
 
 `swarm/swarm_freesurfer.txt` - swarm for initial freesurfer
