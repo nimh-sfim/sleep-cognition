@@ -1,0 +1,8 @@
+ls -d sub-10_* | parallel --progress recon-all -long {} sub-10 -all
+ls -d sub-12_* | parallel --progress recon-all -long {} sub-12 -all
+ls -d sub-3_* | parallel --progress recon-all -long {} sub-3 -all
+ls -d sub-4_* | parallel --progress recon-all -long {} sub-4 -all
+ls -d sub-6_* | parallel --progress recon-all -long {} sub-6 -all
+ls -d sub-7_* | parallel --progress recon-all -long {} sub-7 -all
+ls -d sub-8_* | parallel --progress recon-all -long {} sub-8 -all
+ls -d sub-9_* | parallel --progress recon-all -long {} sub-9 -all
