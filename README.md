@@ -10,15 +10,28 @@ Each participant has multiple sessions throughout the study.
 ---
 ## Code
 
+The entire code for processing data for this study.  The `code` folder includes scripts, while the `swarm` directory
+includes the swarm files for running on a cluster or with GNU Parallel.  Data were first converted to NIFTI with `convert_dicom.sh`
+using the associated `bids_config.txt` file. Next anatomical data were processed in the freesurfer longitudinal pipeline
+which can be done using `run_freesurfer` (or `swarm_freesurfer.txt`) and then both `swarm_longitude.txt` and `swarm_longitude_2.txt`.
+
+Once those are completed, the afni_proc can be performed using `afni_process.sh` or as a batch in `swarm_afni.txt`.
+
 `code/convert_dicom.sh` - converts dicom files to NIFTI using dcm2bids (and dcm2niix obviously)
 
 `code/bids_config.txt` - bids config for dcm2bids
 
 `code/run_freesurfer.sh` - script for running freesurfer recon-all
 
+`code/afni_process.sh` - afni_proc.py script for processing resting state
+
 `swarm/swarm_freesurfer.txt` - swarm for initial freesurfer
 
 `swarm/swarm_longitude.txt` - swarm for longitudinal pipeline part 1
+
+`swarm/swarm_longitude_2.txt` - swarm for longitudinal pipeline part 2
+
+`swarm/swarm_afni.txt` - swarm for running afni_proc.py on all subjects and sessions
 
 ---
 ## File naming conventions
