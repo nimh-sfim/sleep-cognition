@@ -171,7 +171,7 @@ BIDS - or my best attempt.
 │       ├── Subject X - Mid-SR.eeg
 │       ├── Subject X - Mid-SR.vhdr
 │       ├── Subject X - Mid-SR.vmrk
-│       ├── Subject X Acute Recovery.eeg
-│       ├── Subject X Acute Recovery.vhdr
-│       └── Subject X Acute Recovery.vmrk
+│       ├── Subject X - Acute Recovery.eeg
+│       ├── Subject X - Acute Recovery.vhdr
+│       └── Subject X - Acute Recovery.vmrk
 ```
