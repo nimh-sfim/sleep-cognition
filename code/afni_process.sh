@@ -17,6 +17,9 @@ cd $1 #subject folder
 cd $2 #session folder
 data_dir=`pwd`
 
+reverseDset=`ls fmap/${subj}_${ses}*echo-1_blip.nii.gz | head -1`
+forwardDset=`ls func/${subj}_${ses}*echo-1_bold.nii.gz | head -1`
+
 
 #echos on prisma: 14.6 36.7 58.9
 #echos 3tb: 17.6 46.5 74.9
@@ -24,14 +27,14 @@ data_dir=`pwd`
 afni_proc.py                                                                    \
 -subj_id                  ${subj}                                               \
 -copy_anat                ${current}/freesurfer/$subj/SUMA/brain.nii            \
--out_dir                  ${current}/processed/${1}/${2}/${1}_${2}.rest    \
+-out_dir                  ${current}/processed/${1}/${2}/${1}_${2}.rest         \
 -script                   ${current}/processed/${1}/${2}/proc_${1}_${2}.tcsh    \
 -anat_has_skull           no                                                    \
 -dsets_me_echo            func/${subj}_*_echo-1_bold.nii.gz                     \
 -dsets_me_echo            func/${subj}_*_echo-2_bold.nii.gz                     \
 -dsets_me_echo            func/${subj}_*_echo-3_bold.nii.gz                     \
--blip_forward_dset        func/${subj}_${ses}_task-rest_echo-1_bold.nii.gz'[0]'                \
--blip_reverse_dset        fmap/${subj}_${ses}_echo-1_blip.nii.gz'[0]'                     \
+-blip_forward_dset        ${forwardDset}'[0]'                              \
+-blip_reverse_dset        ${reverseDset}'[0]'                              \
 -echo_times               9.7 24.2 38.8                                         \
 -blocks                   despike tshift align tlrc volreg mask  \
                         combine blur scale regress               \
