@@ -11,7 +11,7 @@ Each participant has multiple sessions throughout the study.
 ## Code
 
 The entire code for processing data for this study.  The `code` folder includes scripts, while the `swarm` directory
-includes the swarm files for running on a cluster or with GNU Parallel.  Data were first converted to NIFTI with `convert_dicom.sh`
+includes the swarm files for running those scripts on a cluster or with GNU Parallel.  Data were first converted to NIFTI with `convert_dicom.sh`
 using the associated `bids_config.txt` file. Next anatomical data were processed in the freesurfer longitudinal pipeline
 which can be done using `run_freesurfer` (or `swarm_freesurfer.txt`) and then both `swarm_longitude.txt` and `swarm_longitude_2.txt`.
 
