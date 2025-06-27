@@ -25,13 +25,15 @@ Once those are completed, the afni_proc can be performed using `afni_process.sh`
 
 `code/afni_process.sh` - afni_proc.py script for processing resting state
 
-`swarm/swarm_freesurfer.txt` - swarm for initial freesurfer
+`code/qdec_prep.py` - python script for mapping subjects to fsaverage with desired smoothness for desired metric (e.g. thickness)
 
-`swarm/swarm_longitude.txt` - swarm for longitudinal pipeline part 1
+`code/qdec_prqdec_export2gii.py` - exports the MGH formatted surface scalars (e.g. thickness) to GIFTI format
 
-`swarm/swarm_longitude_2.txt` - swarm for longitudinal pipeline part 2
+`code/build_afni_datatable.py` - builds 3dLME compatible data table for analysis
 
-`swarm/swarm_afni.txt` - swarm for running afni_proc.py on all subjects and sessions
+`code/afni_stats.sh` - script for running 3dLME on each hemisphere
+
+
 
 ---
 ## File naming conventions
